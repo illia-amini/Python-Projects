@@ -11,3 +11,4 @@ for j in range(2,num):
             break
     else:
        print(j)
+#mind-of-king-,-heart-of-warriors

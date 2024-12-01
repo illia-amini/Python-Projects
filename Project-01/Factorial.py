@@ -8,4 +8,4 @@ Factorial=1
 for i in range(1,num+1):
     Factorial=Factorial*i
 print(Factorial)
-#ex-06
+#mind-of-king-,-heart-of-warriors

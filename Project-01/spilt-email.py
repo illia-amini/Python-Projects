@@ -12,3 +12,4 @@ username=email[:char]
 domain=email[char+1:]
 print(username)
 print(domain)
+#mind-of-king-,-heart-of-warriors

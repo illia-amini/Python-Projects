@@ -13,3 +13,4 @@ while True:#it-works-untill-it-is-true
     s+=num#s=s+num
     q+=1#q=q+1
 print("avg;",s/q)
+#mind-of-king-,-heart-of-warriors
