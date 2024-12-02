@@ -26,4 +26,16 @@ names=['amir','ali','reza','mohsen','mohammad']
 scores=[5,7,15,8,10]
 for i,name in enumerate(names):#what enumarate does acctually it comes and find index or give a number to our each index of each list and match toghter
     print(name, "*"*scores[i])
+#code-03
+names=['amir','ali','reza','mohsen','mohammad']
+scores=[5,7,15,8,10]
+i=0
+while i<len(names):
+    print(names[i],end=' ')
+    j=0
+    while j < scores[i]:
+        print("*",end='')
+        j+=1
+    i+=1
+    print('')
 #mind-of-king-,-hear-of-warrior
