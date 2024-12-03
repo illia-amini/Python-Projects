@@ -12,6 +12,7 @@ try:
         name=input('name=')
         if name=='0':
          break
+        #if-user-make-a-mistake-in-any-line-of-code-.-the-lower-code-wont-apply
         age=int(input('age='))
         city=input('city=')
         dict={}
