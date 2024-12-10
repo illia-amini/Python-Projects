@@ -1,4 +1,5 @@
 #ex-01
+#priamry-info
 
 '''
 write a code,that recive usernmae and return
