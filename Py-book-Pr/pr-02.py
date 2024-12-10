@@ -13,3 +13,14 @@ print('power;',num1 ** num2)
 print('divioin(int);',num1 // num2)
 #02-Comprasion Operation;
 # ==,!=,<,>,>=,<=
+num3 = int(input('enter ur num1;'))
+num4 = int(input('enter ur num2;'))
+if num3 == num4:
+    print('==')
+elif num3 != num4:
+    print('!=')
+    if num3 < num4:
+        print('<')
+    elif num3 > num4:
+        print('>') 
+
