@@ -18,7 +18,7 @@ num4 = int(input('Enter ur num2;'))
 num3+=num4#also you can write -=,/=,%=,//=
 print(num3)
 #02-Comprasion Operation;
-# ==,!=,<,>,>=,<=
+# ==,!=,<,>,>=,<=,and,or
 #ex
 num5 = int(input('enter ur num1;'))
 num6 = int(input('enter ur num2;'))
@@ -30,4 +30,10 @@ elif num5 != num6:
         print('<')
     elif num5 > num6:
         print('>') 
+#ex02
+age =int(input('Enter ur age;'))
+print(age < 20 and age > 10)
+#ex03
+age2 = int(input('Enter ur age;'))
+print(age == 20 or age == 18)
 
