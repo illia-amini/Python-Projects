@@ -51,3 +51,4 @@ usheight = float(input('Enter ur height;'))
 usemarried = bool(input('if you are single enter 1,else 0;'))
 usbio = f'Hello Im {usname},\nIm {usage} yearsold,\nIm form {uscity},\nIm {usweight} kg,\nand my tall is {usheight},\nand im {usemarried} .\n'
 print(usbio)
+#Mind-of-king-Heart-of-warrior

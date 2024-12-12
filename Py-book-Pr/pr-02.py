@@ -36,4 +36,4 @@ print(age < 20 and age > 10)
 #ex03
 age2 = int(input('Enter ur age;'))
 print(age == 20 or age == 18)
-
+#Mind-of-king-Heart-of-warrior

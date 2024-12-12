@@ -9,3 +9,4 @@ print('km;',lenght2/1000)
 date_of_birth = int(input('Enter ur date of birth;'))
 result =f'ur age on 2100 would be;{2100 - date_of_birth},\nif u dont die sooner hhhh!!!!\njust a joke' 
 print(result)
+#Mind-of-king-Heart-of-warrior
