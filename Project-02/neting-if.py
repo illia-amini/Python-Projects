@@ -8,3 +8,4 @@ elif age>31 and age<40:
     print('old')
 else:
     print("dead")
+#Mind-of-king-Heart-of-warrior

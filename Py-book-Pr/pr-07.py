@@ -4,3 +4,4 @@ if Number1**0.5==int(Number1**0.5):
     print('yes')
 else:
     print("no")
+#Mind-of-king-Heart-of-warrior

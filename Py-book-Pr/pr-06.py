@@ -28,3 +28,4 @@ if Number4>=10:
 else:
     print('less than 10')
 print('Avereage;',(Approved_Number1+Approved_Number2+Approved_Number3+Approved_Number4)//4)
+#Mind-of-king-Heart-of-warrior

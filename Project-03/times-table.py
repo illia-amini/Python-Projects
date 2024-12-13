@@ -13,3 +13,4 @@ while i<len(table1):
     i+=1
     print('')
 """
+#Mind-of-king-Heart-of-warrior

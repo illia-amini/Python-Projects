@@ -9,3 +9,4 @@ if num2>max:
 if num3>max:
     max=num3
 print("max-num:",max)
+#Mind-of-king-Heart-of-warrior

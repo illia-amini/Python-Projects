@@ -29,4 +29,4 @@ while 1:# while 1 means while true,moreover,while 0 means while false
         print(studentnames)
     elif select !=1 and 2:
         print('Are you ...!!!!,choose between either 1 or 2 broo')
-    #mind-of-king-,-hear-of-warrior
+#mind-of-king-,-hear-of-warrior
