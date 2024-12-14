@@ -17,10 +17,10 @@ if user_op =='+':
     print(sum)
 elif user_op =='-':
     sub = f'u chose -,so:\n{user_num_01} - {user_num_02} = {user_num_01-user_num_02}'
-    print("sub")
+    print(sub)
 elif user_op =='*':
     mul = f'u chose *,so:\n{user_num_01} * {user_num_02} = {user_num_01*user_num_02}'
-    print('mul')
+    print(mul)
 elif user_op =='/':
     div = f'u chose /,so:\n{user_num_01} / {user_num_02} = {user_num_01//user_num_02}'
     print(div)
@@ -29,3 +29,8 @@ elif user_op =='**':
     print(pow)
 else:
     print('invalid operation')
+#write a code, returns 10 spaces between two userstr
+user_str_01 = input('Enter ur first word:')
+user_str_02 = input('Enter ur second word:')
+print(user_str_01,' '*10,user_str_02)
+#Mind-of-king-Heart-of-warrior
