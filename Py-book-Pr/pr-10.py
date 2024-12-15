@@ -62,7 +62,22 @@ if enteread_num_01 == 1:
             if user_num02 != 1 and user_num02 != 2:
                 print('invalid number')
     elif enteread_num_01_02 == 3:
-        pass
+        print('1-Min or 2-Max')
+        user_num08 =int(input('here:'))
+        if user_num08 == 1:
+            print('Enter three numbers respectievly')
+            user_num09 = int(input('First number:'))
+            user_num10 = int(input('seocnd number:'))
+            user_num11 = int(input('third number:'))
+            min_num=min(user_num08,user_num09,user_num10)
+            print('ur min number:',min_num)
+        if user_num08 == 2:
+            print('Enter three numbers respectievly')
+            user_num12 = int(input('First number:'))
+            user_num13 = int(input('seocnd number:'))
+            user_num14 = int(input('third number:'))
+            max_num = max(user_num12,user_num13,user_num14)
+            print('ur max number:',max_num)
     elif enteread_num_01_02 == 4:
         pass
     elif enteread_num_01_02 == 5:
