@@ -25,13 +25,47 @@ if enteread_num_01 == 1:
         elif user_op =='**':
             pow = f'u chose **,so:\n{user_num_01} ** {user_num_02} = {user_num_01**user_num_02}'
             print(pow),print('welcome')
-    elif enteread_num_01_02 == 1:
-        pass
     elif enteread_num_01_02 == 2:
-        pass
+        print('1-Area or 2-Preimeter')
+        user_num01 = int(input('here:'))
+        if user_num01 == 1:
+            print('1-rectangle or 2-trinagle')
+            user_num02 = int(input('here:'))
+            if user_num02 == 1:
+                print('enter ur lenght and width respectively')
+                user_name03 = int(input('length:'))
+                user_name04 = int(input('width:'))
+                Area =f'Area of ur rectangel with {user_name03} width and,{user_name04} length is:\n{user_name04 *user_name03}'
+                print(Area)
+            elif user_num02 == 2:
+                print('enter ur lenght and width respectively')
+                user_name05 = int(input('height:'))
+                user_name06 = int(input('base:'))
+                Area =f'Area of ur triaangel with {user_name05} height and,{user_name06} base is:\n{(user_name05 *user_name06)//2}'
+                print(Area)
+        if user_num01 == 2:
+            print('1-rectangle or 2-trinagle')
+            user_num02 = int(input('here:'))
+            if user_num02 == 1:
+                print('enter ur lenght and width respectively')
+                user_name03 = int(input('length:'))
+                user_name04 = int(input('width:'))
+                preimter =f'priemeter of ur rectangel with {user_name03} length and,{user_name04} width is:\n{(user_name04 + user_name03)*2}'
+                print(preimter)
+            if user_num02 == 2:
+                print('enter ur lenght and width respectively')
+                user_name05 = int(input('enter ur first side:'))
+                user_name06 = int(input('enter ur second side:'))
+                user_name07 = int(input('enter ur third side:'))
+                preimter =f'priemeter of ur triaangel with {user_name05} and,{user_name06},and {user_name07} is:\n{user_name05 + user_name06 + user_name07}'
+                print(preimter)
+            if user_num02 != 1 and user_num02 != 2:
+                print('invalid number')
     elif enteread_num_01_02 == 3:
         pass
     elif enteread_num_01_02 == 4:
+        pass
+    elif enteread_num_01_02 == 5:
         pass
     elif enteread_num_01_02 == 5:
         pass
