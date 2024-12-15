@@ -79,7 +79,15 @@ if enteread_num_01 == 1:
             max_num = max(user_num12,user_num13,user_num14)
             print('ur max number:',max_num)
     elif enteread_num_01_02 == 4:
-        pass
+        user_num_15 = int(input('Enter ur time in second:'))
+        print('1-Hour or 2-Minute')
+        user_num_14 = int(input('here:'))
+        if user_num_14 == 1:
+            Hour_num = f'time in hour is:\n{0.0002777/user_num_15}'
+            print(Hour_num)
+        if user_num_14 == 2:
+                min_num = f'time in min is:\n{0.01666666/user_num_15}'
+                print(min_num)
     elif enteread_num_01_02 == 5:
         user_text = input('Enter ur text:')
         print('word A will be checked.')
@@ -90,4 +98,5 @@ if enteread_num_01 == 1:
     else:
         print('Enter a valid number!!!')
 if enteread_num_01 == 2:
-    pass
+    print('For the time being,\njust first option is availble.\nSorry')
+#Mind-of-king-Heart-of-warrior
