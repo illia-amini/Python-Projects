@@ -39,3 +39,28 @@ elif user_num01 <= 0 :
         print(str(user_num01),' :even & minues')
     elif user_num01 % 2 !=0:
         print(str(user_num01),' :odd & minues')
+#Matchcase-ex
+day = int(input("Enter ur day:"))
+match day :
+    case 1:
+        print('Saturday')
+    case 2:
+        print('Sunday')
+    case 3:
+        print('Monday')
+    case 4:
+        print('Wedsnday')
+    case 5:
+        print('Thursday')
+    case 6:
+        print('Friday')
+    case _:
+        print('Error')
+'''
+in match case,
+first u define a var,
+second, u should write match varname:
+instead of cas write varname,then write case input and orders
+in front of case number user will give, below order u want to apply
+here instead of else we have got case _ write it and below write the order u want
+'''
