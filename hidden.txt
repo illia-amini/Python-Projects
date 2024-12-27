@@ -594,3 +594,27 @@ print user_data(fname='amir'.lname='amini',age=12,city='tehran')
 *important
 <----------:)----------->
 <----------:)----------->
+1 line func:
+. to obey of this use lamda.
+ex; 
+x = lamda a,b : a+b 
+print(2,2)
+# what is happing here, is  u define var like a & b here.
+after : u write the bodey of def here a+b and also reuturn the result to x.
+x = lamda a,b : a+b == def(a,b)
+                        print(a+b)
+<----------:)----------->
+<----------:)----------->
+Reqercivley func;
+.U can call the func inside itself,
+
+ex;
+def x(num);
+    print(num)
+    if num!=0:
+     x(num)-1
+
+x(10) # it will work like loop,
+*but better to not use these type of func beacuse it occuipeide the ram of systeam too much
+<----------:)----------->
+<----------:)----------->
