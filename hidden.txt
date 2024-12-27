@@ -1,0 +1,549 @@
+this is hiddden file
+<----------:)----------->
+pyhton
+<----------:)----------->
+<----------:)----------->
+<----------:)----------->
+#print-start
+print("ali")
+#print-end
+#varaibles-start
+name='ali'
+print(name)
+#varaibles-start
+#input-start
+name=input("Enter your name:")
+print(name)
+#input-end
+#practice-01-start
+name=input("what is your name:")
+print('welcome',name)
+#practice-01-end
+#Datatype-start
+name='ali'#1-string(str)
+age=22#2-integer(int)
+height=1.88#3-float
+weight=80
+#ex-01
+name1='ali'
+name2='reza'
+print(name1 + name2)
+#ex-02
+num1=1
+num2=2
+print(num1+num2)
+#Datatype-end
+#type-start
+#to-know-datatype-of-any-input
+#ex-01
+name=type('ali')
+print(name)
+#ex-02
+a=20
+print(type(a))
+#ex-03*important
+#str(),to-convert-int-to-str
+a=20
+b=str(a)
+print(a + a)
+print(b + b)
+#int(),to-convert-str-and-float-to-int
+c='10'
+d=int(c)
+print(c+c)
+print(d+d)
+#type-end
+'''tip-01-start
+by deafult all of the input is str, to convert to int you should obey 
+of order below:
+ex: a=int(input('enter your age:'))
+otherwise the given datatype would be str
+tip-01-end'''
+#practice-02-start
+#ex-01
+length=int(input("Enter the length of rectangle:"))
+width=int(input("Enter the width of rectangle:"))
+print('Area of reactangle:',length * width)
+#ex-02
+father=int(input("Enter Your Age of father:"))
+son=int(input("Enter Your Age of son:"))
+Diffrence= father - son
+print('Diffrence:',Diffrence)
+#ex-03 
+width=float(input("Enter your width:"))
+print('Area:',width * width)
+#ex-04
+meter=float(input('Enter your meter:'))
+print('Kilometer;',meter/1000)
+#practice-02-end
+#str-methode-phyton-start
+#there-are-many-methodes-for-str-in-phyton-for-more-info-search-in-w3shools
+#upper()
+a='ali'
+print(a.upper())
+#lower()
+a='Ali'.lower()
+print(a)
+#find()
+#this-methode-has-two-values-in-print-either-it-shows-(-1)-or-anynum-(-1)-means-the-entered-words-does-not-exsit-in-written-pragraph-and-anynum-means-how-much-far-the-entered-word-is-from-begining
+txt='hello,my name is alireza'
+s=txt.find('my')
+print(s)
+#replace()
+#to-replace-one-word-with-another-one
+txt='hello, my name is ali'
+r=txt.replace('ali','reza')
+print(r)
+#slice-of-quotes()
+#to-show-from-where-to-where-of-any-sentence-moreover-if-no-number-was-not-written-in-[5:]-like-this-means-from-enterd-number=till-end-viceveresa
+c='hello my name is ali'
+print(c[0:8])
+#format()*important
+#to-insert-the-words-in-their-placeholders
+#ex1-3
+txt1='Hello,my name is {fname} and Im {age}'.format(fname="Ali",age=22)
+txt2='Hello,my name is {0} and Im {1}'.format("Ali",22)
+txt3='Hello,my name is {} and Im {}'.format("Ali",22)
+#str-methode-phyton-end
+#practice-03-start
+txt=input('Enter your str;')
+x=txt.find('.')
+print(txt[:x])
+#practice-03-end
+#len()-start
+#for-counting-length-of-str
+a=len(input('enter your str-02:'))
+print(a)
+#len()-end
+#constvarabiles-start
+#for-constatnat-varaibles-in-any-programing-langugeg-to-not-change-value-anyomre
+PI=3.14
+#constvarabiles-end
+#1line-start
+#if-the-varabiles-all-has-same-value
+num1=num2=num3=5
+print(num1,num2,num3)
+#1line-end
+#mathematic-operation-start
+#plus(+)
+x=2
+y=3
+print('x+y={}'.format(x+y))
+#another-type
+# += (whats the meaning?)
+x+=3 # x=x+3
+print(x)
+#also-you-can-do
+# -=
+# *=
+# /=
+# //=
+# **=
+#mince(-)
+x=2
+y=3
+print('x-y={}'.format(x-y))
+#time(*)
+x=2
+y=3
+print('x*y={}'.format(x*y))
+#division(/)
+x=2
+y=3
+print('x/y={}'.format(x/y))
+#power(**)
+x=2
+y=3
+print('x**y={}'.format(x**y))
+#division-without=float=part(//)
+x=2
+y=3
+print('x//y={}'.format(x//y))
+#division-just=float-part(%)
+x=2
+y=3
+print('x%y={}'.format(x%y))
+#mathematic-operation-end
+#Datatype-bool-start
+#1-True
+#2-False
+#Datatype-bool-end
+#comprasion-start
+#<
+print(12<13)#answer:True
+print(12>13)#answer:False(type;BOOL)
+#>
+print(12<13)#answer:True
+print(12>13)#answer:False(type;BOOL)
+#=>
+print(12<=13)#answer:True
+print(12>=13)#answer:False(type;BOOL)
+#=<
+print(12<13)#answer:True
+print(12>13)#answer:False(type;BOOL)
+#!=
+#can-be-used-in-str-also
+print(12!=13)#answer:True(type;BOOL)
+print("ALIREZA"!='ali')#answer:False(type;BOOL)
+#==
+#can-be-used-in-str-also
+print('ali'=='ali')#answer:True(type;BOOL)
+print(12==13)#answer:False(type;BOOL)
+#comprasion-end
+#if-start
+#to-make-any-condition-on-our-code-the-datatype-will-be-show-is-bool-either-true-false
+#How-it-works-:-first-it-takes-a-bool-then-it-wiill-bw-checked-if-its-tue-first-condition-will-apply-else-second-condition-else-...-atlast-(else)-when-the-first-condition-is-true-it-will-works
+#if-you-have-many-condition-you-must-use-(elif)-for-the-second-third-...-elif=elseif
+#at-end-you-must-use-else
+<----------:)----------->
+loop:
+<----------:)----------->
+when you use loop if you want a code repeat for several times
+for using loop you can use (while) and (for)
+(while)when you do comprassion operation
+or in bool datat type while true or while false
+2-while
+ex;
+num=20
+while num>0;(untill this condition will true it works asa it become flase it will not work anymore)
+    print('ali')
+    num=num-1
+***it will print ali for 10 times
+ex;
+num=20
+while num>0;
+    print('num')
+    num=num-1
+***it will print num from 20 t0 1
+2-for
+ex;
+for i in range(10)***rmember the num,which is written in () it will not counted 
+print(i)
+***it will print the nums between 0 to 9,10 is not couned
+____
+tip;
+1-break;
+it does stop any loop at anypoint you want you can use in both while and for
+ex;
+for i in range(10)
+    if i ==3
+    break
+    print(i)
+***it will untill i is eaqual to 3, it will shows nums 0,1,2 and when i is 3 the loop will be stopped
+---
+2-continue;
+it does continue the loop just forget specific part of loop and then continue
+ex;
+for i in range(10);
+    if i==3;
+        continue
+    print(i)
+    *** it will show 0 1 2 just not show 3 and then continue 4 5 ...
+    unlike the break
+    but if you writ and func before continue it will run
+----
+3-else; 
+you can write else for any loop you want at the end of the code
+ex;
+for i in range(10);
+    if i==3;
+        continue
+    print(i)
+else:
+    print('end')
+--
+4-pass;
+you can not make any loop and if empty,it shows error
+but you can use pass insid of it to prevent of showing error
+ex;
+i=1
+while i>0;
+    pass
+--
+5-neting;
+you can use for inside of eachother,called nesting
+ex;
+for i in range(5);
+    for j in range(2);
+    Print(i,j)
+*** it will print
+i j
+0 0
+0 1
+1 0
+1 1
+2 0
+2 1
+. .
+. . 
+4 1
+fin
+<----------:)----------->
+How to obey of Alghortim solutin perspective?
+first you need to split the hole of problems to smaller part
+second solve each small part unlikeand like puzzle bring each piece of puzzle up
+thir finish
+ex in split email.code;
+#you-shold-know-email-containes-of-two-part;1;Username(before@)-&-2;Domain(after@)
+#solve-via-algortihm-methode
+#1-recive-email
+#2_find-@-charecter
+#3-seperate-part-before-and-after-part-of-@
+#4-print
+<----------:)----------->
+3-list(array);
+is a  Datatype is clalled list
+students=['amir','reza','ali]
+-len(students)=3
+-print([1])
+1 here is index number 1 in this list,that start from 0
+-you can check if any str or any info exsit in our list or not that answer would be a bool datatype;
+students=['amir','reza','ali]
+print("amir" in students)
+it will print true
+-you can make changes in list;
+students=['amir','reza','ali]
+students[0]='amireza'
+print(students)
+it will replace and update list
+or
+students=['amir','reza','ali]
+students[0:2]='amireza','mohamed'
+print(student)
+it will change index 0 and 2 with new var
+or you can write in 2 lines
+-you can add new item;
+use append() func
+students=['amir','reza','ali]
+students.append('sara')
+print(students)
+it will add sara at the end of the list
+-you can del a info or item from list;
+use remove() func
+students=['amir','reza','ali]
+students.remove('amir')
+print(students)
+it will remove amir from our list and the next index would replace the deleted index in terms of rank
+-another methode to remove via index*recommended
+students=['amir','reza','ali]
+students.pop(1)
+print(students)
+it will remove the mentionted index num, as same as remove() code,but more pro
+-you can sort list
+use sort() func
+students=['amir','reza','ali]
+students.sort()
+it will sort based on alphabet words
+if you write 
+students.sort(reverse=true)
+it will sort base on alphabet words, but reversely
+-you can copy
+use copy() func,but read  below inst first
+students=['amir','reza','ali]
+students2=students
+students2[0]='a'
+print(students)
+it will be changed beacuse at line 342 you make eqalizition
+between both varabiles,therefor once you make any chnages in any of both var
+both would obey of new order,to prevent of this situ,
+you should use copy() func,how?
+students=['amir','reza','ali]
+students2=students.copy()
+students2[0]='a'
+print(students)
+students is not changed in order to copy()
+but students2 index0 is changed,like you define two var via this func
+ cool!!!!!
+ -you can conect two list toghter,
+ students=['amir','reza','ali]
+ students2=['mohsen','reza']
+ print(students+students2)
+ it will connect two list toghter forever hhhhhhhhh!!!!!!
+ *****
+tip
+our Datatype in phyton divide into two two type in genral.
+1-primetive
+int,float,str,bool
+2-noneprimetive
+list
+there are some diffrences,
+like copy()
+you cant copy any list like mentioned befor,in order to its a none primetive datatype
+however you can such a this issue wit primettive
+for ex,
+num=2
+num2=num
+in none primetive datatype beacuse you are giving an address 
+for ex;
+ students=['amir','reza','ali] when you write this the value will be saved in an address.
+ on the ram of computer temporirley,thats why when you apply copy issue like primetive datatype
+ it will obey of address which you written before but in primetive datatype is not proccesing like this
+ -combine for with list
+ socers=[2,4,56,766,533,232,]
+ for item in socers;
+    print(item)
+via while;
+socers=[2,4,56,766,533,232,]
+i=0
+while i<len(socers);
+    print(socers[i])
+    i+=1
+***better to use for in list ***
+a nice ex with list;
+socers=[2,4,56,766,533,232,]
+top-socers=[]
+for item in socers():
+    if item>10;
+    top-socers.append(item)
+print(top-socers)
+****pro mood for this code
+socers=[2,4,56,766,533,232,]
+top-socers=[x for x in socers if x>10]
+it will work as same as upper methode
+x means item,or a var
+<----------:)----------->
+<----------:)----------->
+print()
+means print each answer line by line
+<----------:)----------->
+<----------:)----------->
+Datatype:
+1-tuple;
+insted of [] use ()
+ex;
+l=[1,2,4],type list
+t=(1,2,3),type tuple 
+tuple is none primetive 
+diffrences betwwen tuple and list!!!!
+1-you can not change tuple 
+2-in terms of index same with list 
+you can use for here
+2-set; 
+s={1,2,3}
+use {}
+you can not find items via index here,but in tuple and list you could do that 
+there is no index in set 
+also you can not same items in set 
+you can add or remove, ex .add(1) and .remove(2)
+3-dictonary;
+d={}
+use{}
+in dictonry,all items have two part 1-Key(leftside) and 2-value(rightside)
+d={'name':'ali' , 'age':22 , 'city':"tehran"}
+in dictonary we dont have index but use key instead to find the value 
+ex;
+print(d['name'])
+also dictonry srt is not importen but list 
+dictonry is changeble;
+ex;
+d['name']=reza
+you can change via this form
+****important
+you can not have a dic with two or more same key name, but you can have w or more same value
+for using for in dic
+for i in d:
+print(d[i])
+you can print keys with value except that you can not use for for this data type
+*****
+for the sitiution of any datatype google it
+you can chnge datatype to each other by usin below orders
+str()
+float()
+int()
+bool(),bool(1)=true,bool(0)=fals
+list()=array() in other languges
+set()
+tuple()
+dict()
+<----------:)----------->
+<----------:)----------->
+How to handle Errors for user!
+1-wrie an error line for user in terms of user type incorrectly
+2- apply somthing that error will not happen
+use try:
+write code and put all code in try
+ex;
+try:
+    code
+except:
+print()
+int his case if the codes above faces any bugs rhe except part will apply
+application will not exit
+-there are many type of except, upper ex called (value error) if the user enter a vlue which does not match
+-another type is (type erreo), for ex if you come and time two string witheachother
+-you can write diffrent type of error line for each type of error
+for ex, 
+exccept typeerror:
+    print()
+exccept valueerror:
+    print()
+exccept:  #forbydefulterror
+    print 
+<----------:)----------->
+<----------:)----------->
+Function in phyton;
+.its series of code with recive inputs and returns outputs.
+,what is the featured of func is u can write it once in func and call it whenever u want,
+it prevents of rewritting the same code in ur doc for several times and make ur code shorter and shorter,
+.Now How to define a func in phyton;
+first write def in frt of def write func num. then make () in front of func name 
+to mrecive inputs from user.
+for ex;
+def welcome():#fun is define here
+    for(i in range 10);
+            Print('welcome')
+
+welcome() #call back func is required,otherwise u will c nothing on ur page.u can call it back in ur doc whenever u want,
+
+ex;# define parameter & arguments.
+
+def welcome(name): # what inside of () call parameter, and there is a posiballity to have many of parameter at () and splice them via ,
+    for(i in range 10);
+            Print('welcome',name)#use parameter here
+welcome('ali')# this one called arguments, it will pour the value of here inside of the parameter,
+welcome('reza')
+welcome('moh')
+welcome('anita')
+
+ex; 
+def welcome(name,age,city):
+    print('welcome',name)
+    if age < 18:
+        print('under 18')
+    Print('shahr',city)
+
+welcome('ali',22,Arak) 
+
+***tip***
+in parameter & argument u can obey some methode.
+1-u can define default for parameter in rhe case of we will not have any arguments or user inpur, it works and print by default option.
+ex;
+def welcome(name='ali',age=22,city='arak'):
+    print('welcome',name)
+    if age < 18:
+        print('under 18')
+    Print('shahr',city)
+
+welcome() 
+
+2-if u dont obey of writting arguments respectively,thre will not any problem and it will work,
+ex;
+def welcome(name,age,city):
+    print('welcome',name)
+    if age < 18:
+        print('under 18')
+    Print('shahr',city)
+
+welcome(age =22,name = 'ali',city=Arak) 
+
+3-u can define values for arguments inside of the arguments aslo.
+ex;
+def welcome(name,age,city):
+    print('welcome',name)
+    if age < 18:
+        print('under 18')
+    Print('shahr',city)
+
+welcome(age =22,name = 'ali',city=Arak) 
+
+***tip***
