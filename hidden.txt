@@ -573,6 +573,8 @@ print(res)# returns first (2,3) => 5 then calc (5,2) => 7
 *important
 .the type of parameter is topple,
 .make def to recive un limtted inputs
+*a => returns arguments to parameter as topple.
+**a =>  returns arguments to parameter as dictonary.
 ex;
 def sum (*a):#type of a is topple.arguments whatever send parameter recive as topple,
     s=0
@@ -581,5 +583,14 @@ def sum (*a):#type of a is topple.arguments whatever send parameter recive as to
     return s
 res=sum(1,45,657,879,8) # now here u dont have any limit,u can add 1 or many times input u want
 print(res)
-*important
 
+ex;
+ex;
+def user_data (**a):#type of a is dic.arguments whatever send parameter recive as dic,so u can acces to elements by its key and value,
+    for i in a:
+        print(i,a[i])# to reach elements by its key & key value,u can also write print(a)
+
+print user_data(fname='amir'.lname='amini',age=12,city='tehran')
+*important
+<----------:)----------->
+<----------:)----------->
