@@ -589,7 +589,7 @@ ex;
 def user_data (**a):#type of a is dic.arguments whatever send parameter recive as dic,so u can acces to elements by its key and value,
     for i in a:
         print(i,a[i])# to reach elements by its key & key value,u can also write print(a)
-        
+         
 print user_data(fname='amir'.lname='amini',age=12,city='tehran')
 *important
 <----------:)----------->
