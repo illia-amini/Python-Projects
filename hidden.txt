@@ -547,6 +547,8 @@ def welcome(name,age,city):
 welcome(age =22,name = 'ali',city=Arak) 
 
 ***tip***
+<----------:)----------->
+<----------:)----------->
 return;
 in func u should use return, what it does instead of print it wiil apply our operation
 or our code, and it will return the result to our new var which we difine after func,
@@ -566,7 +568,8 @@ def sum (a,b):
 
 res=sum((2,3),3)
 print(res)# returns first (2,3) => 5 then calc (5,2) => 7
-
+<----------:)----------->
+<----------:)----------->
 *important
 .the type of parameter is topple,
 .make def to recive un limtted inputs
