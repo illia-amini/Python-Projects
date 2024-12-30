@@ -6,3 +6,4 @@ for i in py:
 for i in py:
     x-=1
     print(py[0:x])
+#mind-of-king-,-heart-of-warriors
