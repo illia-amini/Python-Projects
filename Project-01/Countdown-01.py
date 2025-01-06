@@ -14,5 +14,6 @@ else:
 time=int(input('Ready for countdown,so Enter ur time:'))
 for i in range(time):
     time-=1
-    print(time)
+    print(time) 
+    
 #mind-of-king-,-heart-of-warriors
